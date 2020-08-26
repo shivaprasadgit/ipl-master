@@ -4,7 +4,7 @@ const router = express.Router()
 router.route('/shiva').get((req, res) => {
     res.send([{
         "id":1,
-        "name":"Virat",
+        "name":"Nagarjuna",
         "team":"India",
         "age": "30 years 230 days",
         "born":"November 5, 1988, Delhi",
