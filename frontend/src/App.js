@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import {connect} from 'react-redux';
-// import { Link, animateScroll as scroll } from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 // import {fetchUsersRequest,fetchUsersSuccess,fetchUsersFailure} from './redux/players/playersAction';
 // import axios from 'axios';
@@ -46,26 +46,24 @@ function App(props) {
               mode="inline"
             >
               <Menu.Item key='Dashboard'>
-              {/* <Link
+              <Link
     activeClass="active"
     to="PlayerDetailes"
     spy={true}
     smooth={true}
     offset={-70}
     duration={500}
->  Player Detailes</Link> */}
-Player Detailes
+>  Player Detailes</Link>
             </Menu.Item>
             <Menu.Item key='Dashboard'>
-            {/* <Link
+            <Link
     activeClass="active"
     to="SchedulerCalender"
     spy={true}
     smooth={true}
     offset={-70}
     duration={500}
->Scheduler Calender</Link> */}
-Scheduler Calender
+>Scheduler Calender</Link>
             </Menu.Item>
             </Menu>
           </Sider>
