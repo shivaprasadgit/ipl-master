@@ -70,7 +70,7 @@ const reducer=(state=initialState,action)=>{
 export const fetchUsers=()=>{
     return function(dispatch){
         dispatch(fetchUsersRequest())
-      axios.get('http://localhost:5000/players').then(response=>{
+      axios.get('/players').then(response=>{
            const users=response.data[0,0];
            const users1=response.data[0,1];
         console.log(users);
