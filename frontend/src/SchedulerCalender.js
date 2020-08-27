@@ -3,13 +3,13 @@ import './SchedulerCalender.scss'
 export default class SchedulerCalender extends Component {
     render() {
         return (
-            <div>
+          
+            <div className="contentbox">
+            <h1 className="heading">Scheduler Calender</h1>
                 <div class="calendar-container">
-                <h1 className="heading">Scheduler Calender</h1>
-
     <div class="calendar-header">
-        <h1> November<button>▾</button></h1>
-        <p>2018</p>
+    <h1 id="SchedulerCalender">August<button>▾</button></h1>        
+    <p>2020</p>
     </div>
     <div class="calendar"><span class="day-name">Mon</span><span class="day-name">Tue</span><span class="day-name">Wed</span><span class="day-name">Thu</span><span class="day-name">Fri</span><span class="day-name">Sat</span><span class="day-name">Sun</span>
         <div class="day day--disabled">30</div>
@@ -55,7 +55,11 @@ export default class SchedulerCalender extends Component {
                 <p>15-17th November</p>
             </div>
         </section>
-        <section class="task task--info">Product Checkup 2</section>
+        <section class="task task--info">
+        <div class="task__detail">KKR VS RR
+                <h2>Product Checkup 1</h2>
+                <p>15-17th November</p>
+            </div></section>
     </div>
 </div>
             </div>
